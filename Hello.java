@@ -1,3 +1,9 @@
+<dependency>
+    <groupId>info.picocli</groupId>
+    <artifactId>picocli</artifactId>
+    <version>3.9.6</version>
+</dependency>
+
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
 import picocli.CommandLine.Option;
