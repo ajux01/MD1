@@ -10,7 +10,7 @@ import java.security.MessageDigest;
 import java.util.concurrent.Callable;
 
 @Command(
-  name = "HelloWorld"
+  name = "HelloWorld",
   description = "It prints"
 ) 
 public class Hello implements Runnable {
