@@ -1,8 +1,4 @@
-<dependency>
-    <groupId>info.picocli</groupId>
-    <artifactId>picocli</artifactId>
-    <version>3.9.6</version>
-</dependency>
+
 
 import picocli.CommandLine;
 import picocli.CommandLine.Command;
@@ -19,9 +15,9 @@ import java.util.concurrent.Callable;
   name = "HelloWorld",
   description = "It prints"
 ) 
-public class Hello implements Runnable {
+public class Main implements Runnable {
   public static void main (String[] args) {
-    new CommandLine(new Hello()).execute(args);
+    new CommandLine(new Main()).execute(args);
   }
     
    @Override
